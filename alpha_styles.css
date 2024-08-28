@@ -18,6 +18,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     width: 90%;
     max-width: 400px;
+    margin: 0 20px;
 }
 
 h1 {
@@ -47,10 +48,12 @@ input[type="text"] {
     border-radius: 5px;
     background-color: #333;
     color: white;
+    box-sizing: border-box;
 }
 
 .form-actions {
     margin-top: 20px;
+    text-align: center;
 }
 
 button {
@@ -72,16 +75,15 @@ button:hover {
 .stats-container {
     margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 
 .stat-box {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
-    width: 45%;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
@@ -96,5 +98,4 @@ button:hover {
     font-weight: bold;
     margin: 0;
     color: #4CAF50;
-    text-align: center;
 }
